@@ -1,0 +1,136 @@
+@media screen and (max-width: 768px) {
+    .user-header{
+        float: right;
+    }
+    .navbar-collapse.collapse.in {
+        float: right;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-nav {
+        float: right;
+        margin: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .nav>li {
+        position: relative;
+        display: block;
+        float: right;
+        width: 100%;
+    }
+    .user-menu-notify, .user-menu-message {
+        display: none;
+        position: absolute;
+        top: 42px;
+        right: 0;
+        background-color: #fff;
+        box-shadow: 0 0 10px silver;
+        border-radius: 0 0 3px 3px;
+        width: 260px;
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+    .user-menu-notify{
+        width: 210px;
+    }
+    .header-user ul{
+        top: 42px;
+    }
+    .home-search p{
+        font-size: 19px;
+    }
+    .home-search form {
+        padding: 0 20px;
+    }
+    .search-banner{
+        width: 100%;
+        padding: 10px;
+    }
+    .super-title h2 {
+        font-size: 20px;
+    }
+    .iconbox-center p {
+        margin-bottom: 25px;
+    }
+    .subtitles {
+        top: -40px;
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        border: 0;
+        border-top: 4px solid #258cc3;
+        border-bottom: 1px solid #dedede !important;
+        background-color: #f5f5f5 !important;
+        border-radius: 0;
+    }
+    .nav-tabs>li.active>a:first-child, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+    .nav-tabs {
+        border-radius: 5px;
+    }
+    .nav-tabs>li>a{
+        margin-left: 0;
+    }
+    .nav-tabs {
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+    .question-desc {
+        padding-right: 15px; 
+        margin-top: 10px;
+    }
+    .qustion-user{
+        margin-bottom: 5px;
+    }
+    .question-title-block {
+        padding-bottom: 5px;
+    }
+    .page-container {
+        padding-top: 133px;
+    }
+    .newsLatterBox .btn {
+        margin-top: -3px;
+    }
+    .full {
+        height: 40px;
+    }
+    .companies-list {
+        margin-top: 38px;
+    }
+    legend{
+        font-size: 18px;
+    }
+    p.p-mini {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .comments-container button.btn.btn-success {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .comment-box .comment-head{
+        padding: 8px;
+    }
+    .replay-desc {
+        float: right;
+        width: 100%;
+    }
+    .comment-box .comment-head a {
+        color: #999;
+        float: left;
+    }
+    .auther-leave-comment textarea{
+        height: 60px !important;
+    }
+    .company-details .btn-group {
+        width: 100% !important;
+        float: right !important;
+        display: block;
+    }
+    .card-background img{
+        display:none;
+    }
+    .navbar .navbar-top{
+        height: auto;
+    }
+}
